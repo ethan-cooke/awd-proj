@@ -15,12 +15,16 @@
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
+            'twhite': '#F0F5F6',
+            'tgray':'#7288A1',
+            'tblue1': '#8AC7EF',
+            'tblue2': '#3B6897',
+            'tblue3': '#1B2E4E',
           }
         }
       }
     }
   </script>
   <link rel="stylesheet" href="css/my_css.css" />
-  <title>Boardarama</title>
+  <title>TimeWarp Consoles</title>
 </head>
