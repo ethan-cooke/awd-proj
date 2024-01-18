@@ -20,6 +20,9 @@
             'tblue1': '#8AC7EF',
             'tblue2': '#3B6897',
             'tblue3': '#1B2E4E',
+          },
+          backgroundImage: {
+            'main-page': "url('images/inside-store.jpg')",
           }
         }
       }
