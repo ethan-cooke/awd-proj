@@ -22,7 +22,7 @@
             'tblue3': '#1B2E4E',
           },
           backgroundImage: {
-            'main-page': "url('images/inside-store.jpg')",
+            'main-page': "url('images/high-res-retro-game.jpg')",
           }
         }
       }
