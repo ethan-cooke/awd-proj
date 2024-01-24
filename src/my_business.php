@@ -33,6 +33,20 @@
                     <span>Find some hidden gems within our array of SEGA Consoles! A whole range of games you might have never heard of can be played on these unique consoles, ranging from the Master System to the Dreamcast!</span>
                 </div>
             </div>
+            <div class="flex flex-col break-inside-avoid mb-6 bg-stone-300 rounded-md overflow-hidden">
+                <img class="w-full object-cover aspect-square bg-white" src="images/GameCube_controller.png" alt="Dreamcast Console">
+                <div class="p-4">
+                    <h4 class="font-bold">Controllers</h4>
+                    <span>Any peripheral you can imagine we have in our stock! From playstation controllers to atari guns we have it all!</span>
+                </div>
+            </div>
+            <div class="flex flex-col break-inside-avoid mb-6 bg-stone-300 rounded-md overflow-hidden">
+                <img class="w-full object-cover aspect-square bg-white" src="images/games_retro.png" alt="Dreamcast Console">
+                <div class="p-4">
+                    <h4 class="font-bold">Games</h4>
+                    <span>All your favourite classic games can be bought here at TimeWarp Consoles! We offer various prices depending on the condition of the copy, even some unused ones for all you collectors out there!</span>
+                </div>
+            </div>
         </div>
     </div>
     <?php include('common/footer.html'); ?>
