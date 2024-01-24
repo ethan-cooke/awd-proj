@@ -34,17 +34,24 @@
                 </div>
             </div>
             <div class="flex flex-col break-inside-avoid mb-6 bg-stone-300 rounded-md overflow-hidden">
-                <img class="w-full object-cover aspect-square bg-white" src="images/GameCube_controller.png" alt="Dreamcast Console">
+                <img class="w-full object-cover aspect-square bg-white" src="images/GameCube_controller.png" alt="Gamecube Controller">
                 <div class="p-4">
                     <h4 class="font-bold">Controllers</h4>
                     <span>Any peripheral you can imagine we have in our stock! From playstation controllers to atari guns we have it all!</span>
                 </div>
             </div>
             <div class="flex flex-col break-inside-avoid mb-6 bg-stone-300 rounded-md overflow-hidden">
-                <img class="w-full object-cover aspect-square bg-white" src="images/games_retro.png" alt="Dreamcast Console">
+                <img class="w-full object-cover aspect-square bg-white" src="images/games_retro.png" alt="Retro Games">
                 <div class="p-4">
                     <h4 class="font-bold">Games</h4>
                     <span>All your favourite classic games can be bought here at TimeWarp Consoles! We offer various prices depending on the condition of the copy, even some unused ones for all you collectors out there!</span>
+                </div>
+            </div>
+            <div class="flex flex-col break-inside-avoid mb-6 bg-stone-300 rounded-md overflow-hidden">
+                <img class="w-full object-cover aspect-square bg-white" src="images/parts_image.jpg" alt="Inside of SNES">
+                <div class="p-4">
+                    <h4 class="font-bold">Parts</h4>
+                    <span>We also sell all the spare parts you could ever need! Check out the parts section of our e-store if your looking to make some home repairs!</span>
                 </div>
             </div>
         </div>
