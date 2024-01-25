@@ -5,13 +5,29 @@
         <img src="images/logo.png" alt="logo" class="w-20 h-20" />
         <span class="font-bold text-2xl">TimeWarp<br />Consoles</span>
       </div>
-      <nav class="flex justify-center flex-grow gap-12 font-semibold items-end">
+      <div class="flex w-full flex-col justify-between gap-4 px-16 py-4 sm:flex-row">
         <a href="my_business.php">Home</a>
-        <a href="pages/sorry.php">E-store</a>
+        <div class="dropdown-container">
+          <button class="dropdown-button">Store</button>
+          <div class="dropdown">
+            <a href="pages/sorry.php">Store Options</a>
+            <a href="pages/sorry.php">Create Account</a>
+            <a href="pages/sorry.php">Catalog</a>
+            <a href="pages/sorry.php">Log In</a>
+          </div>
+        </div>
         <a href="pages/sorry.php">Giveaways</a>
-        <a href="pages/sorry.php">About Us</a>
+        <div class="dropdown-container">
+          <button class="dropdown-button">About Us</button>
+          <div class="dropdown">
+            <a href="pages/sorry.php">Our Story</a>
+            <a href="pages/sorry.php">Vision and Mission</a>
+            <a href="pages/sorry.php">Locations</a>
+            <a href="pages/sorry.php">Feedback Form</a>
+          </div>
+        </div>
         <a href="pages/sorry.php">Site Map</a>
-      </nav>
+      </div>
       <div class="flex flex-1 flex-col justify-center gap-4 text-center">
         <span class="font-semibold">Welcome!</span>
         <button class="bg-tblue3 py-1 rounded-full">Log in</button>
