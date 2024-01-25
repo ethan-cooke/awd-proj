@@ -11,8 +11,18 @@
       </div>
     </div>
     <div class="md:hidden block text-center pb-4">
-      <i class="ph ph-caret-down text-xl"></i>
+      <i id="arrow" class="ph ph-caret-down text-xl"></i>
     </div>
-    <div class="flex justify-center p-4 pt-0"><?php include('navlinks.html'); ?></div>
+    <div id="nav-menu" class="md:flex justify-center hidden p-4 pt-0">
+      <div class="flex w-full max-w-2xl items-center md:items-end flex-col justify-between gap-4 md:flex-row">
+        <?php include('navlinks.html'); ?>
+      </div>
+    </div>
   </div>
 </div>
+<script>
+  document.getElementById('arrow').addEventListener('click', function() {
+        var navMenu = document.getElementById('nav-menu');
+        navMenu.style.display = (navMenu.style.display === 'flex') ? 'none' : 'flex';
+    });
+</script>
