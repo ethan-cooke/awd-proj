@@ -5,8 +5,8 @@
   <div class="flex flex-col justify-center w-full h-screen">
     <?php include('../common/navbar.php'); ?>
     <div class="flex flex-col prose max-w-none h-full text-tgray p-6">
-      <h1>Error 404</h1>
-      <p>Sorry, the page you have requested does not exist. Please check the URL and try again.</p>
+      <h1>Our Vision</h1>
+      <p></p>
     </div>
     <?php include('../common/footer.html'); ?>
   </div>
