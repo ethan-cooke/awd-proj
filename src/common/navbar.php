@@ -21,8 +21,19 @@
   </div>
 </div>
 <script>
-  document.getElementById('arrow').addEventListener('click', function() {
-        var navMenu = document.getElementById('nav-menu');
-        navMenu.style.display = (navMenu.style.display === 'flex') ? 'none' : 'flex';
-    });
+  document.addEventListener('click', (event) => {
+    const dropdownButton = event.target.closest('.dropdown-button')
+    if (dropdownButton) {
+      dropdownButton.classList.toggle('dropdown-open')
+      event.stopPropagation()
+    } else {
+      document.querySelectorAll('.dropdown-button').forEach((button) => {
+        button.classList.remove('dropdown-open')
+      })
+    }
+  })
+
+  document.getElementById('arrow').addEventListener('click', () => {
+    document.getElementById('nav-menu').classList.toggle('nav-open');
+  });
 </script>

@@ -2,9 +2,9 @@
 <html lang="en">
 <?php include('../common/head.php'); ?>
 <body>
-  <div class="flex flex-col justify-center w-full h-screen">
+  <div class="flex flex-col w-full min-h-screen">
     <?php include('../common/navbar.php'); ?>
-    <div class="flex flex-col prose max-w-none h-full text-black">
+    <div class="flex flex-col flex-grow prose max-w-none text-black">
       <h1 class="p-6 pb-0">Site Map</h1>
       <div class="flex justify-center">
         <div class="columns-xs justify-center max-w-6xl w-full p-6 gap-6">
