@@ -31,5 +31,5 @@
 }
 
 .location-image {
-  @apply aspect-square object-cover md:rounded-full w-full md:max-w-xs;
+  @apply aspect-square object-cover md:rounded-full w-full md:max-w-40;
 }

@@ -1328,10 +1328,6 @@ select {
   flex-direction: column;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .items-center {
   align-items: center;
 }
@@ -1473,10 +1469,6 @@ select {
   padding-top: 0px;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1599,7 +1591,7 @@ select {
 
 @media (min-width: 768px) {
   .location-image {
-    max-width: 20rem;
+    max-width: 10rem;
     border-radius: 9999px;
   }
 
@@ -1621,10 +1613,6 @@ select {
 
   .md\:rounded-full {
     border-radius: 9999px;
-  }
-
-  .md\:pt-8 {
-    padding-top: 2rem;
   }
 
   .md\:pt-10 {
