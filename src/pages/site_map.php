@@ -16,13 +16,15 @@
           <div class="flex flex-col p-4 gap-4 break-inside-avoid mb-3 bg-stone-300 rounded-md text-center">
             <div class="text-2xl font-bold">Store</div>
             <a class="text-xl font-bold" href="pages/store_options.php">Store Options</a>
-            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Create Account</a>
+            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Register</a>
             <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Catalog</a>
             <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Log In</a>
+            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Shopping Cart</a>
+            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Checkout</a>
+            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Log Out</a>
           </div>
           <div class="flex flex-col p-4 gap-4 break-inside-avoid mb-3 bg-stone-300 rounded-md text-center">
             <div class="text-2xl font-bold">About Us</div>
-            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Our Story</a>
             <a class="text-xl font-bold" href="pages/vision.php">Vision and Mission</a>
             <a class="text-xl font-bold" href="pages/locations.php">Locations</a>
             <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Feedback Form</a>
