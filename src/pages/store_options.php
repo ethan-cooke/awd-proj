@@ -6,7 +6,7 @@
     <?php include('../common/navbar.php'); ?>
 
     <div class="flex justify-center flex-grow">
-      <div class="flex max-w-6xl">
+      <div class="flex w-full max-w-6xl">
         <div class="flex flex-col prose max-w-none text-tgray p-6">
           <h1>Store Options</h1>
           <p>Welcome to our e-store. Thanks for checking out what we have to offer!</p>

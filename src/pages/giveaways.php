@@ -7,8 +7,7 @@
     <div class="flex justify-center flex-grow">
       <div class="flex w-full max-w-6xl">
         <div class="flex flex-col prose max-w-none text-tgray p-6">
-          <h1>Error 404</h1>
-          <p>Sorry, the page you have requested does not exist. Please check the URL and try again.</p>
+          <h1>Giveaways</h1>
         </div>
       </div>
     </div>

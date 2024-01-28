@@ -29,3 +29,7 @@
 #nav-menu:is(.nav-open) {
   @apply flex;
 }
+
+.location-image {
+  @apply aspect-square object-cover md:rounded-full w-full md:max-w-xs;
+}

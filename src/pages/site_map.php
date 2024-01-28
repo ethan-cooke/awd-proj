@@ -5,14 +5,14 @@
   <div class="flex flex-col w-full min-h-screen">
     <?php include('../common/navbar.php'); ?>
     <div class="flex justify-center flex-grow">
-      <div class="flex max-w-6xl">
+      <div class="flex max-w-6xl w-full">
         <div class="flex flex-col prose max-w-none text-black">
           <h1 class="p-6 pb-0">Site Map</h1>        
           <div class="columns-xs justify-center max-w-6xl w-full p-6 gap-6">
             <div class="flex flex-col p-4 gap-4 break-inside-avoid mb-3 bg-stone-300 rounded-md min-w-fit text-center">
               <a class="text-2xl font-bold" href="my_business.php">Home</a>
               <a class="text-2xl font-bold" href="pages/site_map.php">Site Map</a>
-              <a class="text-2xl font-bold" href="pages/sorry.php">Giveaways</a>
+              <a class="text-2xl font-bold" href="pages/giveaways.php">Giveaways</a>
             </div>
             <div class="flex flex-col p-4 gap-4 break-inside-avoid mb-3 bg-stone-300 rounded-md text-center">
               <div class="text-2xl font-bold">Store</div>

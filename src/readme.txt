@@ -13,7 +13,6 @@ Are all files well formatted?
 Are all web pages free of spelling and grammatical errors? 
 Did readme.txt adequately describe state of the website? 
 
-fix issue with navbar resizing and fitting properly on vision page
-clean up store options page
-add locations page
+
+clean up store options and error page
 add giveaways page
