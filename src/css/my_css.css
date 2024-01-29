@@ -33,3 +33,7 @@
 .location-image {
   @apply aspect-square object-cover md:rounded-full w-full md:max-w-40;
 }
+
+.giveaway-step {
+  @apply flex flex-col items-center prose;
+}
