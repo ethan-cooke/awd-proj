@@ -2152,6 +2152,10 @@ select {
     border-radius: 9999px;
   }
 
+  .md\:text-left {
+    text-align: left;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
