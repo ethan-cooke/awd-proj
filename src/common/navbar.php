@@ -23,15 +23,13 @@
 <script>
   document.addEventListener('click', (event) => {
     const dropdownButton = event.target.closest('.dropdown-button')
+    document.querySelectorAll('.dropdown-button').forEach((button) => {
+        button.classList.remove('dropdown-open')
+      })
     if (dropdownButton) {
       dropdownButton.classList.toggle('dropdown-open')
       event.stopPropagation()
-    } else {
-      document.querySelectorAll('.dropdown-button').forEach((button) => {
-        button.classList.remove('dropdown-open')
-      })
-    }
-  })
+    }})
 
   document.getElementById('arrow').addEventListener('click', () => {
     document.getElementById('nav-menu').classList.toggle('nav-open');
