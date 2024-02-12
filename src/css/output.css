@@ -1241,8 +1241,28 @@ select {
   margin-bottom: 0;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .bottom-0 {
   bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
 }
 
 .m-0 {
@@ -1440,8 +1460,8 @@ select {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-main-page {
-  background-image: url('../images/high-res-retro-game.jpg');
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-center {
@@ -2129,6 +2149,12 @@ select {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.desc-text {
+  text-shadow: 1px 1px 2px black;
+  --tw-text-opacity: 1;
+  color: rgb(240 245 246 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

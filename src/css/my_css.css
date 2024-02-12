@@ -37,3 +37,8 @@
 .giveaway-step {
   @apply flex flex-col items-center prose;
 }
+
+.desc-text {
+  text-shadow: 1px 1px 2px black;
+  @apply text-twhite;
+}

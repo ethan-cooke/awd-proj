@@ -3,10 +3,12 @@
 <?php include('common/head.php'); ?>
 <body>
   <div class="flex flex-col justify-center w-full h-screen ">
-    <?php include('common/navbar.php'); ?> <!--Use prose for tailwind on content -->
-    <div class="flex justify-center bg-main-page bg-center w-full h-full items-center">
-      <div class="flex p-8 bg-tblue1 rounded-2xl border-4 border-tblue3 max-w-2xl font-semibold" id="quote">
+    <?php include('common/navbar.php'); ?>
+    <div class="flex justify-center bg-cover bg-center w-full h-full items-center" id="background">
+      <div class="flex p-8 bg-tblue1 rounded-2xl border-4 border-tblue3 max-w-2xl font-semibold">
+        <?php include('common/quote.php'); ?>
       </div>
+      <div class="absolute bottom-3 left-4 desc-text" id="description"></div>
     </div>    
   </div>
   <div class="flex justify-center">
@@ -57,11 +59,5 @@
   </div>
   <?php include('common/footer.php'); ?>
 </body>
+<script src="scripts/carousel.js"></script>
 </html>
-
-<script>
-  setInterval(async ()=> {
-    const data = await (await fetch('scripts/get_quote.php')).json()
-    document.getElementById('quote').innerHTML = `Today's ${data.adjective} quote of the day: "${data.quote}" -${data.author}`  
-  }, 1000)
-</script>
