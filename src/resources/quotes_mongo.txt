@@ -1,0 +1,25 @@
+
+{"_id": 1, "adjective": "comedic", "quote": "Before you marry a person, you should first make them use a computer with slow Internet to see who they really are.", "author": "Will Ferrell"}
+{"_id": 2, "adjective": "amusing", "quote": "I Used To Be An Adventurer Like You. Then I Took An Arrow To The Knee.", "author": "Various Skyrim Guards"}
+{"_id": 3, "adjective": "informative", "quote": "I like video games.", "author": "Elon Musk"}
+{"_id": 4, "adjective": "grim", "quote": "YOU DIED.", "author": "Dark Souls"}
+{"_id": 5, "adjective": "funny", "quote": "I've always wanted to be a giant space crab.", "author": "Gabe Newell"}
+{"_id": 6, "adjective": "inspiring", "quote": "90% of what is considered impossible is, in fact, possible. The other 10% will become possible with the passage of time & technology.", "author": "Hideo Kojima"}
+{"_id": 7, "adjective": "interesting", "quote": "As a creator, I always want to betray fans expectations.", "author": "Hideo Kojima"}
+{"_id": 8, "adjective": "honest", "quote": "Donkey Kong Country proves that players will put up with mediocre gameplay as long as the art is good.", "author": "Shigeru Miyamoto"}
+{"_id": 9, "adjective": "truthful", "quote": "A delayed game is eventually good, but a rushed game is forever bad.", "author": "Shigeru Miyamoto"}
+{"_id": 10, "adjective": "jaw-dropping" , "quote": "I love those old Mario games." , "author": "Justin Kaiser"}
+{"_id": 11, "adjective": "hilarious", "quote": "I feel just like a purple Pikmin.", "author": "Reggie Fils-Aime"}
+{"_id": 12, "adjective": "questionable", "quote": "Customers do not want online games.", "author": "Satoru Iwata"}
+{"_id": 13, "adjective": "random", "quote": "I don't claim to be a pro gamer in any shape or form.", "author": "Hidetaka Miyazaki"}
+{"_id": 14, "adjective": "funny", "quote": "I get to meet a lot of other company presidents. They're such weird people. I'm fascinated by them. I use some of them as enemy characters in our games.", "author": "Hidetaka Miyazaki"}
+{"_id": 15, "adjective": "nostalgic", "quote": "All We Had To Do, Was Follow The Damn Train, CJ!", "author": "Big Smoke"}
+{"_id": 16, "adjective": "cute" , "quote": "Poyo!!!" , "author": "Kirby"}
+{"_id": 17, "adjective": "annoying", "quote": "Hey! Listen!", "author": "Navi"}
+{"_id": 18, "adjective": "classic", "quote": "Wahoo!", "author": "Mario"}
+{"_id": 19, "adjective": "serious", "quote": "Do not be sorry... Be Better.", "author": "Kratos"}
+{"_id": 20, "adjective": "uplifting", "quote": "Video games foster the mindset that allows creativity to grow.", "author": "Nolan Bushnell"}
+{"_id": 21, "adjective": "shocking", "quote": "Without passion, you are already dead.", "author": "Max Payne"}
+{"_id": 22, "adjective": "sad", "quote": "It's easy to forget what a sin is in the middle of a battlefield.", "author": "Solid Snake"}
+{"_id": 23, "adjective": "grim", "quote": "War, war never changes", "author": "Fallout"}
+{"_id": 24, "adjective": "earth-shattering", "quote": "A man chooses, A slave obeys.", "author": "Andrew Ryan"}

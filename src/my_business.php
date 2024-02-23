@@ -6,7 +6,7 @@
     <?php include('common/navbar.php'); ?>
     <div class="flex justify-center bg-cover bg-center w-full h-full items-center" id="background">
       <div class="flex p-8 bg-tblue1 rounded-2xl border-4 border-tblue3 max-w-2xl font-semibold">
-        <?php include('common/quote.php'); ?>
+        <?php include('scripts/get_quote.php'); ?>
       </div>
       <div class="absolute bottom-3 left-4 desc-text" id="description"></div>
     </div>    
