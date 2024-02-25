@@ -27,7 +27,7 @@
             <div class="text-2xl font-bold">About Us</div>
             <a class="text-xl font-bold" href="pages/vision.php">Vision and Mission</a>
             <a class="text-xl font-bold" href="pages/locations.php">Locations</a>
-            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Feedback Form</a>
+            <a class="text-xl font-bold" href="pages/feedback.php">Feedback Form</a>
           </div>
         </div>        
       </div>

@@ -42,3 +42,19 @@
   text-shadow: 1px 1px 2px black;
   @apply text-twhite;
 }
+
+.form-field {
+  @apply rounded-md border-slate-400 self-start;
+}
+
+.form-control:is(.form-validated) :is(input, textarea, select):invalid {
+  @apply border-red-600 ring-red-600;
+}
+
+.form-error {
+  @apply hidden text-red-600;
+}
+
+.form-control:is(.form-validated) :is(input, textarea, select):invalid + .form-error {
+  @apply block;
+}
