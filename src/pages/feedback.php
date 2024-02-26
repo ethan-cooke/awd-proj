@@ -17,7 +17,7 @@
         <form class="form-control flex flex-col w-full bg-slate-200 rounded-lg my-6 p-4 gap-4" action="scripts/formFeedback.php" method="post" novalidate>
           <div class="flex flex-col md:flex-row w-full gap-4">
             <div class="flex flex-1 gap-4">
-              <select class="form-field" name="salutation" required>
+              <select class="form-field" name="prefix" required>
                 <option value="" selected disabled hidden>
                   Prefix
                 </option>
