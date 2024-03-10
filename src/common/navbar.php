@@ -1,3 +1,9 @@
+<?php
+$loggedIn = isset($_SESSION["customer_id"]);
+if ($loggedIn) {
+  $name = $_SESSION["first_name"];
+}
+?> 
 <div class="flex justify-center bg-tblue2 text-white border-b-4 border-tblue3 w-full">
   <div class="flex justify-center flex-col w-full">
     <div class="flex justify-between w-full p-4 pb-0">
@@ -6,8 +12,17 @@
         <span class="font-bold md:text-2xl text-lg">TimeWarp<br />Consoles</span>
       </div>
       <div class="flex flex-col items-center justify-center gap-2 text-center">
+      <?php if ($loggedIn): ?>
+        <span class="font-semibold">Welcome, <?php echo $name ?>!</span>
+        <a href="scripts/logout.php">
+          <button class="bg-tblue3 py-1 px-3 rounded-full">Log Out</button>
+        </a>
+      <?php else: ?>
         <span class="font-semibold">Welcome!</span>
-        <button class="bg-tblue3 py-1 px-3 rounded-full">Log in</button>
+        <a href="pages/login.php">
+          <button class="bg-tblue3 py-1 px-3 rounded-full">Log In</button>
+        </a>
+      <?php endif; ?>
       </div>
     </div>
     <div class="md:hidden block text-center pb-4">

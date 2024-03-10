@@ -58,3 +58,7 @@
 .form-control:is(.form-validated) :is(input, textarea, select):invalid + .form-error {
   @apply block;
 }
+
+input[type="submit"], input[type="reset"] {
+  cursor: pointer;
+}

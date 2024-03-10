@@ -1,22 +1,8 @@
 <?php
-include(__DIR__."/db_connect.php");
-function clean ($str) {
-  return htmlspecialchars(stripslashes(trim($str)));
-}
+require __DIR__."/db_connect.php";
+require __DIR__."/form_utils.php";
+require __DIR__."/post_only.php";
 
-function assign ($str) {
-  if(isset($str) && !empty($str)) {
-    return clean($str);
-  }
-
-  header("Location: ../pages/400.php");
-  die();
-}
-
-if($_SERVER["REQUEST_METHOD"] !== "POST"){
-  header("Location: ../pages/400.php");
-  exit;
-}
 
 $data = array(
   "prefix" => assign($_POST["prefix"]),
