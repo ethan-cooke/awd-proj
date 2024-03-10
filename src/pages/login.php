@@ -8,9 +8,14 @@
       <div class="flex flex-col w-full max-w-6xl gap-6 text-tgray p-6">
         <div class="prose max-w-none">
           <h1>Login</h1>
-          <p>
-            
-          </p>
+          <div class="flex gap-6">
+            <div class="flex flex-col gap-6">
+              <p>
+                In order to make purchases on TimeWarp Consoles, you must first have an account. Fill out the form below to log in.
+              </p>
+            </div>
+            <img src="" alt="">
+          </div>
         </div>
       </div>
     </div>
