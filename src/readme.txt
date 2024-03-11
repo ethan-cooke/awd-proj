@@ -18,3 +18,9 @@ Quote of the day: Currently updates on every page refresh. Implemented using com
 Submission 3:
 state of the site is in line with requirements for submission 3.
 
+Submission 4:
+state of the site is in line with requirements for submission 4.
+
+Login/Logout within navbar: removed nav links to login/logout since they were redundant due to the login/logout button in the top right.
+
+Register region field: changed field to a text field to allow for more compatability outside of Canada.
