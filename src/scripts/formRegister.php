@@ -7,10 +7,10 @@ require __DIR__."/post_only.php";
 $data = array(
   "prefix" => assign($_POST["prefix"]),
   "first_name" => assign($_POST["firstName"]),
-  "initial" => assign($_POST["middleInitial"]),
+  "initial" => !empty($_POST["middleInitial"]) ? assign($_POST["middleInitial"]) : null,
   "last_name" => assign($_POST["lastName"]),
   "gender" => assign($_POST["gender"]),
-  "phone" => assign($_POST["phone"]),
+  "phone" => !empty($_POST["phone"]) ? assign($_POST["phone"]) : null,
   "email" => assign($_POST["email"]),
   "address" => assign($_POST["address"]),
   "city" => assign($_POST["city"]),
@@ -38,7 +38,11 @@ $regex = array(
 );
 
 foreach ($regex as $field => $pattern) {
-  if (!preg_match($pattern, $data[$field])) {
+  if (!is_null($data[$field])) {
+    if (!preg_match($pattern, $data[$field])) {
+      die("Bad $field");
+    }
+  } else if ($field != "phone" && $field != "initial") {
     die("Bad $field");
   }
 }
@@ -53,6 +57,14 @@ if (fieldAlreadyExists($db, "my_Customers", "username", $data["username"])) {
 
 if ($data["password"] != assign($_POST["confirmPassword"])) {
   die("Passwords do not match");
+}
+
+if (is_null($data["phone"])) {
+  unset($data["phone"]);
+}
+
+if (is_null($data["initial"])) {
+  unset($data["initial"]);
 }
 
 $data["password"] = password_hash($data["password"], PASSWORD_DEFAULT);

@@ -30,7 +30,7 @@
               </div>
             </div>
             <div class="flex flex-1 gap-4">
-              <input class="form-field max-w-28" type="text" name="middleInitial" required pattern="^[A-Za-z]*$" placeholder="Initial">
+              <div class="flex flex-1"><input class="form-field w-full" type="text" name="middleInitial" pattern="^[A-Za-z]*$" placeholder="Initial (optional)"></div>
               <div class="flex-col flex-1">
                 <input class="form-field w-full" type="text" name="lastName" required pattern="^[A-Z][A-Za-z]*$" placeholder="Last Name">
                 <span class="form-error">Please input a valid last name</span>
@@ -48,7 +48,7 @@
                 <option value="O">Other</option>
               </select>
               <div class="flex-col flex-1">
-                <input class="form-field w-full" type="text" name="phone" required pattern="^(\d{3}-)?\d{3}-\d{4}$" placeholder="Phone Number">
+                <input class="form-field w-full" type="text" name="phone" pattern="^(\d{3}-)?\d{3}-\d{4}$" placeholder="Phone Number (optional)">
                 <span class="form-error">Please input a valid phone number</span>
               </div>
             </div>
