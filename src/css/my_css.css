@@ -62,3 +62,7 @@
 input[type="submit"], input[type="reset"] {
   cursor: pointer;
 }
+
+.category-tag {
+  @apply bg-tblue1 py-1 px-3 rounded-md no-underline font-bold;
+}
