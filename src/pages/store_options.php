@@ -13,9 +13,9 @@
           <p>Here we sell all kinds of retro game consoles, controllers, games and more! <br>
           We've added a few links to help you get started. Please choose one of the following:</p>
           <div class="flex flex-col gap-2">
-            <span>To browse our entire product catalog <a title="Not Yet Implemented" href="pages/sorry.php">click here</a>.</span>
-            <span>Do you already have an account with us? Login <a title="Not Yet Implemented" href="pages/sorry.php">here</a> to our e-store and begin browsing right away!</span>
-            <span>Don't have an account with us yet? You can <a title="Not Yet Implemented" href="pages/sorry.php">click here</a> to register an account to use in the future.</span>
+            <span>To browse our entire product catalog <a href="pages/catalog.php">click here</a>.</span>
+            <span>Do you already have an account with us? Login <a href="pages/login.php">here</a> to our e-store and begin browsing right away!</span>
+            <span>Don't have an account with us yet? You can <a href="pages/register.php">click here</a> to register an account to use in the future.</span>
           </div>
         </div>
       </div>

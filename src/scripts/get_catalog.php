@@ -1,7 +1,7 @@
 <?php
 require __DIR__."/db_connect.php";
 
-$c_data = mysqli_query($db, "SELECT * FROM my_categories ORDER BY cat_name");
+$c_data = mysqli_query($db, "SELECT * FROM my_categories ORDER BY name");
 $categories = mysqli_fetch_all($c_data, MYSQLI_ASSOC);
 
 $query = "SELECT * FROM my_products";

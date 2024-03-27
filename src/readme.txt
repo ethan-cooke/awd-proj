@@ -24,3 +24,6 @@ state of the site is in line with requirements for submission 4.
 Login/Logout within navbar: removed nav links to login/logout since they were redundant due to the login/logout button in the top right.
 
 Register region field: changed field to a text field to allow for more compatability outside of Canada.
+
+Submission 5:
+state of the site is in line with requirements for submission 5.

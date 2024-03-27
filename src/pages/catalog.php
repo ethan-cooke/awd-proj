@@ -15,8 +15,8 @@
               <a href="pages/catalog.php" class="category-tag">All</a>
               <?php include "../scripts/get_catalog.php" ?>
               <?php foreach ($categories as $category): ?>
-              <a href="pages/catalog.php?category=<?= $category["cat_name"]?>" class="category-tag">
-                <?= $category["cat_name"]?>
+              <a href="pages/catalog.php?category=<?= $category["code"]?>" class="category-tag">
+                <?= $category["name"]?>
               </a>
               <?php endforeach; ?>
             </div>
