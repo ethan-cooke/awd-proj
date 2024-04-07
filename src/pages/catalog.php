@@ -24,17 +24,31 @@
           </div>
           <div class="columns-xs gap-4">
               <?php foreach($products as $product): ?>
-              <div class="flex-col bg-stone-300 rounded-md overflow-hidden break-inside-avoid mb-4">
+              <form class="flex-col bg-stone-300 rounded-md overflow-hidden break-inside-avoid mb-4" action="scripts/cart.php" method="post">
                 <img class="w-full aspect-square object-cover" src="images/products/<?= $product["image"] ?>" alt="<?= $product["name"]?>">
                 <div class="flex flex-col gap-2 p-4">
                   <div class="font-bold"><?= $product["name"]?></div>
                   <div>Price: $<?= $product["price"]?></div>
                   <div>Stock: <?= $product["stock"]?></div>
-                  <a title="Add To Cart" href="pages/catalog.php" class="font-bold text-blue-600 hover:underline">
-                    Add To Cart <i class="ph ph-shopping-cart"></i>
-                  </a>
+                  <?php if ($product["stock"] != 0): ?> 
+                  <div class="flex w-full justify-between">
+                    <div class="flex items-center gap-2">
+                      <span>Quantity:&nbsp;</span>
+                      <?php
+                      $numberOfOptions = $product["stock"];
+                      echo "<input type='number' class='rounded w-16 text-md py-0.5 px-1 font-light' required max=$numberOfOptions min=1 id='qty' name='qty' />";
+                      ?>
+                    </div>
+                    <input type="hidden" id="product" name="product" value="<?= $product["p_id"] ?>" >
+                    <button title="Add To Cart" class="font-bold text-blue-600 hover:underline">
+                      Add To Cart <i class="ph ph-shopping-cart"></i>
+                    </button>
+                  </div>
+                  <?php else: ?>
+                  <div class="w-full pb-1.5">Item out of stock, please check again later.</div>
+                  <?php endif; ?>
                 </div>
-              </div>
+              </form>
               <?php endforeach; ?>
           </div>
         </div>
