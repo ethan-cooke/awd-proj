@@ -24,7 +24,7 @@
           </div>
           <div class="columns-xs gap-4">
               <?php foreach($products as $product): ?>
-              <form class="flex-col bg-stone-300 rounded-md overflow-hidden break-inside-avoid mb-4" action="scripts/cart.php" method="post">
+              <form class="flex-col bg-stone-300 rounded-md overflow-hidden break-inside-avoid mb-4" action="scripts/add_to_cart.php" method="post">
                 <img class="w-full aspect-square object-cover" src="images/products/<?= $product["image"] ?>" alt="<?= $product["name"]?>">
                 <div class="flex flex-col gap-2 p-4">
                   <div class="font-bold"><?= $product["name"]?></div>
