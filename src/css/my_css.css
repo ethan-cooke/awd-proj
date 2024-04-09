@@ -66,3 +66,7 @@ input[type="submit"], input[type="reset"] {
 .category-tag {
   @apply bg-tblue1 py-1 px-3 rounded-md no-underline font-bold;
 }
+
+.grid-item {
+  @apply text-center;
+}

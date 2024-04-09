@@ -11,7 +11,7 @@ if (isset($_SESSION["customer_id"])) {
       $order_id = $row["order_id"];
       
       $query = 
-            "SELECT p.name as name, p.image as image, p.price as price, i.qty as quantity
+            "SELECT p.p_id, p.name as name, p.image as image, p.price as price, i.qty as quantity
             FROM my_order_items AS i
             JOIN my_products AS p ON i.product_id = p.p_id
             WHERE i.order_id = $order_id";
