@@ -24,7 +24,7 @@
                       <?php endif ?>
                     </div>
                     <span>Price: $<?= sprintf("%0.2f", $product["price"] * $product["quantity"]) ?></span>
-                    <div class="text-blue-600">Remove</div>
+                    <a class="text-blue-600" href="scripts/rm_from_cart.php">Remove</a>
                   </div>
                 </div>
               </div>
