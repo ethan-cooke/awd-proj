@@ -35,7 +35,7 @@
               <div class="text-lg text-end">HST (15%): <span class="font-bold">$<?= sprintf("%0.2f", $subtotal * 0.15) ?></span></div>
               <div class="text-lg text-end py-2">Total: <span class="font-bold">$<?= sprintf("%0.2f", $subtotal * 1.15) ?></span></div>
               <div class="flex justify-end">
-                <a class="rounded-md bg-tblue2 text-twhite py-1 px-3 no-underline" href="scripts/process_checkout.php">Proceed to checkout</a>
+                <a class="rounded-md bg-tblue2 text-twhite py-1 px-3 no-underline" href="pages/checkout.php">Proceed to checkout</a>
               </div>
             </div>
           </div>

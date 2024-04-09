@@ -68,5 +68,5 @@ input[type="submit"], input[type="reset"] {
 }
 
 .grid-item {
-  @apply text-center;
+  @apply text-center border-slate-400;
 }
