@@ -15,6 +15,7 @@
               <a href="pages/catalog.php" class="category-tag">All</a>
               <?php include("../scripts/get_catalog.php") ?>
               <?php include("../scripts/get_cart.php") ?>
+              <?= var_dump($categories) ?>
               <?php foreach ($categories as $category): ?>
               <a href="pages/catalog.php?category=<?= $category["code"]?>" class="category-tag">
                 <?= $category["name"]?>
