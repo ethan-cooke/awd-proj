@@ -1,6 +1,6 @@
 #!/bin/bash
 
-db_file = "~/.sqlite/timewarp.db"
+db_file="$HOME/.sqlite/timewarp.db"
 if [ -f "$db_file" ]; then
     rm "$db_file"
 fi
