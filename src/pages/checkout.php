@@ -17,7 +17,7 @@
                 <div class="grid-item font-bold border-r ">Name</div>
                 <div class="grid-item font-bold border-x">Quantity</div>
                 <div class="grid-item font-bold border-l">Price</div>
-                <?php foreach($products as $product): ?>
+                <?php foreach($cart_products as $product): ?>
                 <div class="grid-item border-r"><?= $product["name"] ?></div>
                 <div class="grid-item border-x"><?= $product["quantity"] ?></div>
                 <div class="grid-item border-l">$<?= sprintf("%0.2f", $product["price"] * $product["quantity"]) ?></div>

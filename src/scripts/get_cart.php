@@ -1,6 +1,7 @@
 <?php
-
-require __DIR__."/db_connect.php";
+if (!isset($db)) {
+  require __DIR__."/db_connect.php";
+}
 
 if (isset($_SESSION["customer_id"])) {
   $customer_id = $_SESSION["customer_id"];
@@ -17,19 +18,19 @@ if (isset($_SESSION["customer_id"])) {
             WHERE i.order_id = $order_id";
 
       $data = mysqli_query($db, $query);
-      $products = mysqli_fetch_all($data, MYSQLI_ASSOC);  
+      $cart_products = mysqli_fetch_all($data, MYSQLI_ASSOC);  
     } else {
-      $products = [];
+      $cart_products = [];
     }
   } else {
     die("Could not display cart, please try again later.");
   }
 
   $subtotal = 0;
-  foreach ($products as $product) {
+  foreach ($cart_products as $product) {
     $subtotal = $subtotal + ($product["price"] * $product["quantity"]);
   }
 } else {
-  $products = [];
+  $cart_products = [];
   $subtotal = 0;
 }

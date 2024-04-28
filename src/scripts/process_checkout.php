@@ -2,7 +2,7 @@
 
 require __DIR__."/get_cart.php";
 
-foreach ($products as $product) {
+foreach ($cart_products as $product) {
   $query = "UPDATE my_products SET stock = stock - {$product["quantity"]} WHERE p_id = {$product["p_id"]}";
   mysqli_query($db, $query);
 }

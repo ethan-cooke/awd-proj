@@ -17,10 +17,9 @@
             <div class="text-2xl font-bold">Store</div>
             <a class="text-xl font-bold" href="pages/store_options.php">Store Options</a>
             <a class="text-xl font-bold" href="pages/register.php">Register</a>
-            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/catalog.php">Catalog</a>
+            <a class="text-xl font-bold" href="pages/catalog.php">Catalog</a>
             <a class="text-xl font-bold" href="pages/login.php">Log In</a>
-            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Shopping Cart</a>
-            <a class="text-xl font-bold" title="Not Yet Implemented" href="pages/sorry.php">Checkout</a>
+            <a class="text-xl font-bold" href="pages/shopping_cart.php">Shopping Cart</a>
           </div>
           <div class="flex flex-col p-4 gap-4 break-inside-avoid mb-3 bg-stone-300 rounded-md text-center">
             <div class="text-2xl font-bold">About Us</div>

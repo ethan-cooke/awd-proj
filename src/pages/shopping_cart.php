@@ -12,7 +12,8 @@
             <div class="w-full border-b border-slate-300 pb-4 text-xl text-center font-extrabold">Your Shopping Cart</div>
             <div class="flex flex-col gap-4 border-b border-slate-300 pb-4">
               <?php include "../scripts/get_cart.php" ?>
-              <?php foreach($products as $product): ?>
+              <?php if(!empty($cart_products)): ?>
+              <?php foreach($cart_products as $product): ?>
               <div class="flex w-full justify-between">
                 <div class="flex max-h-32 items-center gap-4">
                   <img class="h-full rounded-md aspect-square object-cover" src="images/products/<?= $product["image"] ?>" alt="<?= $product["name"] ?>">
@@ -29,14 +30,19 @@
                 </div>
               </div>
               <?php endforeach; ?>
+              <?php else: ?>
+              <div class="w-full pt-10 pb-32 text-center text-lg">Your cart is empty. Please add items from the <a href="pages/catalog.php">catalog </a>to proceed to checkout.</div>
+              <?php endif; ?>
             </div>
             <div class="flex flex-col">
               <div class="text-lg text-end">Subtotal: <span class="font-bold">$<?= sprintf("%0.2f", $subtotal) ?></span></div>
               <div class="text-lg text-end">HST (15%): <span class="font-bold">$<?= sprintf("%0.2f", $subtotal * 0.15) ?></span></div>
               <div class="text-lg text-end py-2">Total: <span class="font-bold">$<?= sprintf("%0.2f", $subtotal * 1.15) ?></span></div>
+              <?php if(!empty($cart_products)): ?>
               <div class="flex justify-end">
                 <a class="rounded-md bg-tblue2 text-twhite py-1 px-3 no-underline" href="pages/checkout.php">Proceed to checkout</a>
               </div>
+              <?php endif; ?>
             </div>
           </div>
         </div>
