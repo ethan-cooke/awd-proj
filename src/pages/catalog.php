@@ -13,8 +13,8 @@
             <h2 class="">Tags</h2>
             <div class="flex gap-6 flex-wrap">
               <a href="pages/catalog.php" class="category-tag">All</a>
-              <?php include "../scripts/get_catalog.php" ?>
-              <?php include "../scripts/get_cart.php" ?>
+              <?php include("../scripts/get_catalog.php") ?>
+              <?php include("../scripts/get_cart.php") ?>
               <?php foreach ($categories as $category): ?>
               <a href="pages/catalog.php?category=<?= $category["code"]?>" class="category-tag">
                 <?= $category["name"]?>
