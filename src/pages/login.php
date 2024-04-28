@@ -3,7 +3,7 @@
 <?php include('../common/head.php'); ?>
 <?php
 if (isset($_SESSION["customer_id"])) {
-  header("Location: ../my_business.php");
+  header("Location: ../index.php");
   exit;
 }
 $retry = isset($_GET["retry"]);

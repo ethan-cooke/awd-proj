@@ -8,7 +8,7 @@
       <div class="flex w-full max-w-6xl">
         <div class="flex flex-col prose max-w-none text-tgray p-6">
           <h1>Thank you for registering!</h1>
-          <p>Please click <a href="my_business.php">here</a> to go back to the home page.</p>
+          <p>Please click <a href="index.php">here</a> to go back to the home page.</p>
         </div>
       </div>
     </div>

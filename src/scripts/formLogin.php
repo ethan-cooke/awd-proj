@@ -31,7 +31,7 @@ if ($rows = mysqli_query($db, $query)) {
   if (password_verify($password, $row["password"])) {
     $fields = array("customer_id", "first_name", "last_name");
     populate_session($fields, $row);
-    header("Location: ../my_business.php");
+    header("Location: ../index.php");
   } else {
     header("Location: ../pages/login.php?retry=true");
   }

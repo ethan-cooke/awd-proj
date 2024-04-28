@@ -6,4 +6,4 @@ if (isset($_SESSION['customer_id'])) {
     session_destroy();
 }
 
-header("Location: ../my_business.php");
+header("Location: ../index.php");

@@ -8,7 +8,7 @@ if ($loggedIn) {
   <div class="flex justify-center flex-col w-full">
     <div class="flex justify-between w-full p-4 pb-0">
       <div class="flex items-center">
-        <a href="my_business.php"><img src="images/logo.png" alt="logo" class="w-20 h-20" /></a>
+        <a href="index.php"><img src="images/logo.png" alt="logo" class="w-20 h-20" /></a>
         <span class="font-bold md:text-2xl text-lg">TimeWarp<br />Consoles</span>
       </div>
       <div class="flex flex-col items-center justify-center gap-2 text-center">
